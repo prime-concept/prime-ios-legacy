@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page type="PRPrimeTravelOverviewViewController"
+    title="PRIME Travel benefits"
+    partnersCount="More than 600 partners">
+    <items count="2">
+        <item image="avia_partners" title="Air travel" content="&#8226; Up to 13% discount for &quot;Aeroflot&quot; business class flights&#10;&#8226; Confidential tariffs for British Airways and Emirates flights&#10;&#8226; 15% discount for S7 business class flights"/>
+        <item image="hotel_partners" title="PRIME Hotel Collection" content="&#8226; Increasing of room category&#10;&#8226; Early check-in and late check-out&#10;&#8226; Free breakfast&#10;&#8226; Compliments: lunch or dinner at the hotel restaurant&#10;&#8226; Spa-procedures for the amount of $ 100 (In some networks)&#10;&#8226; A traditional gift from the hotel"/>
+    </items>
+</page>

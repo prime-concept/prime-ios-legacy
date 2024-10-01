@@ -1,0 +1,11 @@
+/Build/
+/Pods/
+.DS_Store
+*/xcuserdata/*
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate

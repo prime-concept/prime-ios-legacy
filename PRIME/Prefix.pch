@@ -1,0 +1,58 @@
+//
+//  Prefix.pch
+//  PRIME
+//
+//  Created by Admin on 12/01/15.
+//  Copyright (c) 2015 XNTrends. All rights reserved.
+//
+
+#ifndef PRIME_Prefix_pch
+#define PRIME_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import "Constants.h"
+#import "once.h"
+#import "NSString+extended.h"
+#import "Utils.h"
+
+@import Foundation;
+@import CoreData;
+
+#import "WebSocketConstants.h"
+
+#if __has_include("MagicalRecord.h")
+#import "MagicalRecord.h"
+#endif
+
+
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <RestKit/RestKit.h>
+#import <Motis/Motis.h>
+#import <MTDates/NSDate+MTDates.h>
+#import <JDStatusBarNotification/JDStatusBarNotification.h>
+#import "SHSPhoneTextField+DeleteBackward.h"
+#import <PureLayout/PureLayout.h>
+#endif //__OBJC__
+
+#ifdef _COREDATADEFINES_H
+    #define USE_COREDATA
+#else
+    #ifdef USE_COREDATA
+        #undef USE_COREDATA
+    #endif
+#endif
+
+#import "PRMessageAlert.h"
+#import "PRRequestManager.h"
+#import "PRDatabase.h"
+#import "NSObject+Keychain.h"
+#import "NSMutableArray+Keychain.h"
+#import "PRGoogleAnalyticsManager.h"
+
+#import <CoreLocation/CoreLocation.h>
+#import <ChameleonFramework/Chameleon.h>
+#endif

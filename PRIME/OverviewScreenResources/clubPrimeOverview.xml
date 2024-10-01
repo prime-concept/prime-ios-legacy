@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page type="PRClubPrimeOverviewViewController"
+    facebookButtonTitle="Login with Facebook"
+    sendButtonTitle="Submit"
+    name="Name"
+    phone="Phone"
+    email="e-mail"
+    title="Become a member of the PRIME Club"
+    registrationForm="Fill in the form and we will contact you"
+    agreement="By clicking &quot;Submit&quot;, you agree with the processing of your personal data.">
+</page>

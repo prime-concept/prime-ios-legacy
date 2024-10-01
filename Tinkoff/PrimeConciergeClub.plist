@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Prime Concierge Club</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>primeconciergeclub</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tg</string>
+		<string>fb</string>
+		<string>comgooglemaps</string>
+		<string>whatsapp</string>
+		<string>uber</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Please give us permission to synchronize your events with the system calendar.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera will be used to scan a payment card, and to take a photo for your account.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Please give us permission to use your contacts for sharing and saving.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>FaceID is used to identify users and login to application</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please give us permission to use your location. Your location will be used to find available services near to you.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Please give us permission to use your microphone. Microphone activation will enable you to send voice messages.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please give us permission to add a photo to your library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please give us permission to choose a photo for your account.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>The application requests access to track your activity in other applications and websites owned by other companies. To provide you with suitable personalized content, the application needs access to your device ID</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>fontawesome-webfont.ttf</string>
+		<string>ocra-webfont.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>PrimeConciergeClubLaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_opFN0536BjL0hA0S5nR7xnkiutlv6jf9</string>
+		<key>test</key>
+		<string>key_test_enAV8500EeV0ps3T3iSZZfikyviy9mCa</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>primeconciergeclub.app.link</string>
+		<string>primeconciergeclub-alternate.app.link</string>
+		<string>primeconciergeclub.test-app.link</string>
+		<string>primeconciergeclub-alternate.test-app.link</string>
+	</array>
+</dict>
+</plist>

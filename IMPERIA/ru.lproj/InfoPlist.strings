@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  PRIME
+
+  Created by Davit on 7/27/16.
+  Copyright © 2016 XNTrends. All rights reserved.
+*/
+
+"NSLocationWhenInUseUsageDescription" = "Разрешите определять Ваше местоположение";
+"NSContactsUsageDescription" = "Пожалуйста разрешите доступ к вашим контактам. Это необходимо для отправки и сохранения контактов.";
+"NSPhotoLibraryAddUsageDescription" = "Пожалуйста разрешите доступ к вашей библиотеке для добавление фото.";

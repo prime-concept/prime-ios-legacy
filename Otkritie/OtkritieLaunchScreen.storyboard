@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vxG-gk-mRy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="H3x-iU-5A1">
+            <objects>
+                <viewController id="vxG-gk-mRy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dvS-ad-dgp"/>
+                        <viewControllerLayoutGuide type="bottom" id="QbE-mF-QuW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hdK-st-HEB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OtkritieLaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="wR5-rx-aJ7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wR5-rx-aJ7" firstAttribute="leading" secondItem="hdK-st-HEB" secondAttribute="leading" id="GLv-RB-W1p"/>
+                            <constraint firstAttribute="trailing" secondItem="wR5-rx-aJ7" secondAttribute="trailing" id="GfF-Er-qun"/>
+                            <constraint firstAttribute="bottom" secondItem="wR5-rx-aJ7" secondAttribute="bottom" id="atL-8j-0wN"/>
+                            <constraint firstItem="wR5-rx-aJ7" firstAttribute="top" secondItem="hdK-st-HEB" secondAttribute="top" id="h3k-hE-SoZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s2w-0N-1iU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="167"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="OtkritieLaunchImage" width="375" height="667"/>
+    </resources>
+</document>

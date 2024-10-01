@@ -1,0 +1,281 @@
+//
+//  Localizable.strings
+//  PRIME
+//
+//  Created by Simon on 31/01/15.
+//  Copyright (c) 2015 XNTrends. All rights reserved.
+//
+
+"Close" = "Chiudere";
+"Repeat" = "Ripetere";
+
+"Next" = "Prossimo";
+"Done" = "Fatto";
+"Cancel" = "Annullare";
+"Signout" = "Uscita";
+"Add card ..." = "Aggiungere una carta";
+"Add passport" = "Aggiungere il passaporto";
+"Add document ..." = "Aggiungere un documento";
+"Add visa" = "Aggiungere il visto";
+"Add" = "Aggiungere";
+"Cards" = "Сarte";
+"Passports" = "Passaporti";
+"Visas" = "Visti";
+"Information" = "Informazione";
+"Synchronization" = "Sincronizzazione";
+"Documents" = "Documenti";
+"Concierge" = "Concierge";
+
+"Login" = "Login";
+"Authentication is needed to access your account." = "Si prega di registrarsi";
+
+"All categories..." = "Tutte le categorie";
+
+"Request Types" = "Categorie";
+"Statuses" = "Stati";
+"E-mail" = "E-mail";
+"Personal information" = "Informazione personale";
+"Change password ..." = "Cambiare la password";
+"Save modification?" = "Salvare le modifiche?";
+
+"Passwords don't match" = "Le password non corrispondono";
+"Unable to find the requested data." = "Impossibile trovare i dati richiesti";
+"The server is temporarily unavailable or no Internet connection. Please try again later." = "Il server è temporaneamente non disponibile o alcuna connessione a Internet. Si prega di riprovare più tardi.";
+"Temporary problem. Please try again later." = "Ci sono i problemi temporanei. Si prega di riprovare più tardi.";
+"Confirmation code is wrong. An SMS with the registration code has been sent to you." = "Il codice di conferma non è corretto. Lei è stato inviato un  SMS con il codice di registrazione.";
+
+"Invalid country code" = "Il codice del paese non valido";
+"Your phone number" = "Il numero di telefono";
+"The phone number or password you entered is incorrect." = "Il numero di telefono o la password sono errati.";
+
+"Enter password" = "Inserire la password";
+"Enter password to login" = "Inserire una password per effettuare il login";
+"«Forgot password»" = "«Ho dimenticato la password»";
+"Repeat password" = "Ripeta la passvord";
+"Passwords don't match." = "Le password non corrispondono";
+"To use the application %@ please enter your phone number" = "Per accedere all'applicazione %@ è necessario specificare il numero di telefono";
+"Write a password which you will use to enter application %@" = "Inventi una password che verrà utilizzato per accedere all'applicazione %@";
+
+"Card with this number does not exist." = "La carta con questo numero non esiste.";
+
+"Want to keep this card for future payment?" = "Vuole mantenere questa carta per il pagamento futuro?";
+
+"The Internet connection appears to be offline." = "La connessione a Internet sembra essere offline.";
+
+"Failed to save contact changes" = "Impossibile salvare le modifiche di contatto.";
+
+"Expiration date of the card is entered incorrectly." = "Periodo di validità viene immesso in modo non corretto.";
+
+"Payment system only processes Visa and MasterCard." = "Il sistema di pagamento supporta solo Visa e MasterCard.";
+
+"The card will be encrypted in the KeyChain and is only available on this device." = "La carta sarà criptato nel KeyChain ed è disponibile solo su quel dispositivo.";
+
+"Invalid email address." = "Indirizzo e-mail non valido";
+
+"Connected to Internet." = "Connesso a Internet";
+
+"UBER is unavailable at this moment." = "UBER non è disponibile in questo momento.";
+
+"Mobile" = "Mobile";
+
+"Club rules" = "Regole del club";
+
+"Delete account" = "Eliminare l'account";
+
+"Are you sure you want to delete your account?" = "Sei sicuro di voler eliminare il tuo account?";
+
+"Your account has been successfully deleted" = "Il tuo account è stato eliminato con successo";
+
+"Change password" = "Modifica della password";
+
+"Synchronize calendar" = "La sincronizzazione del calendario";
+
+"Manage subscriptions" = "Gestire abbonamenti";
+
+"Cards" = "Carte";
+
+"Passports" = "Passaporti";
+
+"Passport" = "Passaporto";
+
+"Visas" = "Visti";
+
+"Visa" = "Visto";
+
+"Passports/Visas" = "Passaporti/Visti";
+
+"Information" = "Informazione";
+
+"Request" = "Richiesta";
+
+"Order" = "Mandato";
+
+"Pay" = "Pagare";
+
+"Paid" = "Pagato";
+
+"Request created" = "Richiesta creato";
+
+"Option" = "Opzione";
+
+"Payment" = "Pagamento";
+
+"Activity" = "Attività";
+
+"In progress" = "In corso";
+
+"Completed" = "Completato";
+
+"Cancelled" = "Annullato";
+
+"passport" = "Passaporto";
+"single-entry" = "per un solo ingresso";
+"multiple-entry" = "per più ingressi";
+"single-entry Schengen" = "Schengen per un solo ingress";
+"multiple-entry Schengen" = "Schengen per più ingressi";
+
+"No requests" = "Nessuna richiesta";
+
+"Pull down to refresh" = "Tiri per aggiornare";
+"Release to refresh" = "Rilasci per aggiornare";
+"Loading" = "Caricamento in corso";
+
+"Autofill card data?" = "Compilare i dati della carta?";
+
+"In progress" = "In corso";
+"Completed" = "Completato";
+"To pay" = "A pagamento";
+
+"Booked" = "Prenotazione";
+"Requests" = "Richieste";
+
+"Last name" = "Сognome";
+"First name" = "Nome";
+"Middle name" = "Patronimico";
+"Email (optional)" = "E-mail";
+
+"Passport Number" = "Numero del passaporto";
+"Visa Number" = "Numero del visto";
+"Citizenship" = "Сittadinanza";
+"Date of Birth" = "Data di nascita";
+"Place of Birth" = "Luogo di nascita";
+
+"Add Passport ..." = "Aggiungere il passaporto";
+"Add Visa ..." = "Aggiungere il visto";
+"Issue date" = "Data di rilascio";
+"Expiration date" = "Data di fine";
+"Issuing authority" = "Organo che ha rilasciato";
+"Country" = "Paese";
+"Visa type" = "Tipo di visto";
+"Add photo" = "Aggiungere una foto";
+"Delete photo" = "Rimuovere una foto";
+
+"All spends" = "Tutte le spese";
+"Transaction history" = "Storia delle transazioni";
+"History" = "Storia";
+"Expenses" = "Spese";
+"My documents" = "Miei documenti";
+"My cards" = "Mie carte";
+"Bonus card" = "Carta bonus";
+"PAYMENT CARDS" = "Carte di pagamento";
+"LOYALTY CARDS" = "Carte fedeltà";
+"Type" = "Tipo";
+"Card number" = "Numero di carta";
+"Note" = "Nota";
+"Card types" = "Tipo di carta";
+"Scan the card" = "Scansione di carta";
+"Delete" = "Rimuovere";
+
+"Current balances" = "Corrente saldi";
+"No balances information for current month" = "Nessun saldi informazioni per il mese corrente";
+"Data on transactions made in the last 10 days, can be adjusted" = "I dati sulle operazioni eseguite negli ultimi 10 giorni, può essere regolata.";
+"Currency" = "Valuta";
+"MULTY CURRENCY" = "Valuta multi";
+
+"Service provider" = "Fornitore di servizi";
+"All" = "Tutti";
+"Partners" = "Partner";
+
+"Private closed club. The number of members is limited to 300 persons.\n\nJoining the Club PRIMECONCEPT is possible only on the recommendation of one of the members or at the invitation of shareholders and leadership Club." = "Club privato chiuso. Il numero dei membri del Club limitate a solo 300 persone. \nEntrare nel Club PRIMECONCEPT è possibile solo su raccomandazione di uno dei membri del Club o su invito di azionisti e dirigenti del Club.";
+"Phone number" = "Numero di telefono";
+"is not found in the list of members\n" = "non è stato trovato nella lista dei membri del club\n";
+"Your contact number is not listed in \"Imperia Private Banking\" Concierge Service.\nTo activate Mobile App please provide us your current telephone number.\n" = "Your contact number is not listed in \"Imperia Private Banking\" Concierge Service.\nTo activate Mobile App please provide us your current telephone number.\n";
+"is not found in the list of PRIME Pond mobile concierge-service\n" = "non è stato trovato nella lista di servizio di portineria PRIME Pond mobile\n";
+"is not found in the list of Ginza concierge-service\n" = "non è stato trovato nella lista di servizio di portineria Ginza\n";
+"is not found in the list of Formula Kino concierge-service\n" = "non è stato trovato nella lista di servizio di portineria Formula Kino\n";
+"To activate the mobile application you should be registered in the Concierge Service. Please contact us for assistance \n+7 495 775 52 19.\n" = "To activate the mobile application you should be registered in the Concierge Service. Please contact us for assistance \n+7 495 775 52 19.\n";
+"Call" = "Chiamata";
+"Call back" = "Richiamata";
+"Open site" = "Visita il sito";
+"Your request is accepted. We will contact you within 24 hours." = "La richiesta è stata accettata. Ci metteremo in contatto con Lei entro 24 ore.";
+
+"Very bad" = "Molto male";
+"Bad" = "Male";
+"Normal" = "Normale";
+"Good" = "Bene";
+"Very good" = "Benissimo";
+"Rate the quality of your call" = "Valutare la qualità della chiamata";
+
+"City Guide" = "Guida";
+"Profile" = "Profilo";
+"Me" = "Io";
+
+"Today" = "Oggi";
+"Yesterday" = "Ieri";
+
+"Message has not been sent" = "Il messaggio non è stato inviato";
+"Send again" = "Rispedire";
+"Concierge" = "Concierge";
+
+"Edit" = "Modificare";
+"Save" = "Conservare";
+
+"add phone" = "Aggiungere il telefono";
+"add email" = "Aggiungere e-mail";
+"add contact" = "Aggiungere un contatto";
+
+"Phone" = "Numero telefonico";
+"Mail" = "Mail";
+"Contact" = "Contatto";
+
+"Hide" = "Ridurre";
+
+"Ride there with UBER" = "Prendere la UBER";
+"Waiting for UBER" = "In attesa di UBER";
+"mins" = "min";
+"See more on UBER" = "Vedere di più su UBER";
+"Choose car" = "Scegliere l'auto";
+"mins" = "min";
+
+"Prime city" = "Prime Città";
+"Card selection" = "Scegliere una carta";
+"Create a password" = "Creare una password";
+"Confirm password" = "Сonfermare la password";
+"Continue" = "Сontinuare";
+"We've sent you an SMS with the code" = "Abbiamo mandato un SMS con il codice";
+"Code" = "Codice";
+"Calendar" = "Calendario";
+"Time" = "Durata";
+"Not now" = "Non ora";
+"Start" = "Iniziare";
+"Hotel" = "Albergo";
+"Send" = "Inviare";
+"Submit" = "Confermare";
+"End" = "Completare";
+"Other" = "Altro";
+"Restaurant" = "Ristorante";
+"Whole day" = "Tutto il giorno";
+"Transfer" = "Transfer";
+"VIP hall" = "Sala vip";
+"Name" = "Nome";
+"Surname" = "Сognome";
+"Avia" = "Avia";
+
+"due" = "fino al";
+
+"Take photo" = "Fare foto";
+"Choose from library" = "Scegli dalla libreria";
+"Back" = "Indietro";
+
+// Skolkovo
+"Please contact our concierge service by phone number +74956413456 to activate the mobile application" = "Per attivare l'applicazione mobile si prega di contattare il servizio di concierge a numero\n+7 495 641 34 56";

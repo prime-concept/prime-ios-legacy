@@ -1,0 +1,38 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 5,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 31,
+          "top" : 30,
+          "right" : 39,
+          "left" : 31
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "ModernBubbleOutgoingFull@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PRUberCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="139" id="PMf-CE-K4X" userLabel="PRUberCell" customClass="PRUberCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PMf-CE-K4X" id="2RC-dz-FRG">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1q-4D-6xr">
+                        <rect key="frame" x="20" y="16" width="212" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="aBb-iN-nVF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hl6-qB-QH0">
+                        <rect key="frame" x="113" y="34" width="28" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="28" id="SB0-WR-ggk"/>
+                            <constraint firstAttribute="height" constant="21" id="gjL-RK-KvQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZ4-qK-kAt">
+                        <rect key="frame" x="82" y="38" width="23" height="13"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7000-10000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Wzz-JZ-UL1" userLabel="Service Price Label">
+                        <rect key="frame" x="20" y="39" width="60" height="10"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h98-aw-N2D">
+                        <rect key="frame" x="240" y="16" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Mzh-6W-rfc"/>
+                            <constraint firstAttribute="height" constant="20" id="zAM-ZM-ikw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cv0-Lf-uJF" userLabel="Estimated Pickup Time Label">
+                        <rect key="frame" x="240" y="40" width="60" height="9"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="9" id="CPS-47-evF"/>
+                            <constraint firstAttribute="width" constant="60" id="cl1-mb-Lyv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="10"/>
+                        <color key="textColor" red="0.65028170727614443" green="0.65028170727614443" blue="0.65028170727614443" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="h98-aw-N2D" secondAttribute="trailing" constant="20" id="3Bz-2U-qKU"/>
+                    <constraint firstItem="Cv0-Lf-uJF" firstAttribute="centerX" secondItem="h98-aw-N2D" secondAttribute="centerX" id="7bG-A3-GpW"/>
+                    <constraint firstItem="Wzz-JZ-UL1" firstAttribute="leading" secondItem="2RC-dz-FRG" secondAttribute="leading" constant="20" id="CuS-xv-amc"/>
+                    <constraint firstItem="z1q-4D-6xr" firstAttribute="top" secondItem="2RC-dz-FRG" secondAttribute="top" constant="16" id="K4n-9O-pJB"/>
+                    <constraint firstItem="h98-aw-N2D" firstAttribute="top" secondItem="2RC-dz-FRG" secondAttribute="top" constant="16" id="T3P-VL-kBW"/>
+                    <constraint firstItem="z1q-4D-6xr" firstAttribute="leading" secondItem="2RC-dz-FRG" secondAttribute="leading" constant="20" id="WSO-be-rdl"/>
+                    <constraint firstItem="h98-aw-N2D" firstAttribute="leading" secondItem="z1q-4D-6xr" secondAttribute="trailing" constant="8" id="aUC-Kp-WDX"/>
+                    <constraint firstItem="Hl6-qB-QH0" firstAttribute="centerY" secondItem="gZ4-qK-kAt" secondAttribute="centerY" id="eYW-p0-IFe"/>
+                    <constraint firstAttribute="bottom" secondItem="Wzz-JZ-UL1" secondAttribute="bottom" constant="10" id="fxg-bZ-MhD"/>
+                    <constraint firstItem="gZ4-qK-kAt" firstAttribute="centerY" secondItem="Wzz-JZ-UL1" secondAttribute="centerY" id="h3h-xB-wl4"/>
+                    <constraint firstItem="Hl6-qB-QH0" firstAttribute="leading" secondItem="gZ4-qK-kAt" secondAttribute="trailing" constant="8" id="lCY-lx-RAP"/>
+                    <constraint firstItem="Wzz-JZ-UL1" firstAttribute="top" secondItem="z1q-4D-6xr" secondAttribute="bottom" constant="6" id="noK-A6-OjU"/>
+                    <constraint firstAttribute="bottom" secondItem="Cv0-Lf-uJF" secondAttribute="bottom" constant="10" id="xVp-Zk-8S4"/>
+                    <constraint firstItem="gZ4-qK-kAt" firstAttribute="leading" secondItem="Wzz-JZ-UL1" secondAttribute="trailing" constant="2" id="y2a-Y6-5BH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="carImageView" destination="h98-aw-N2D" id="ABt-Hh-nBX"/>
+                <outlet property="currencyLabel" destination="gZ4-qK-kAt" id="pYZ-lz-7oy"/>
+                <outlet property="estimatedPickupTimeLabel" destination="Cv0-Lf-uJF" id="aeK-5x-26O"/>
+                <outlet property="servicePriceLabel" destination="Wzz-JZ-UL1" id="kKT-Jq-sHj"/>
+                <outlet property="surgeImageView" destination="Hl6-qB-QH0" id="g2p-kb-8J9"/>
+                <outlet property="uberServiceNameLabel" destination="z1q-4D-6xr" id="Tfy-sb-zUS"/>
+            </connections>
+            <point key="canvasLocation" x="1850" y="670"/>
+        </tableViewCell>
+    </objects>
+</document>

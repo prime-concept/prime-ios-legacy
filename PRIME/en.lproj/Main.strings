@@ -1,0 +1,77 @@
+
+/* Class = "IBUILabel"; text = "We sent you code with sms"; ObjectID = "0Tm-0t-loB"; */
+"0Tm-0t-loB.text" = "We sent you code with sms";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "0eq-TH-Jlq"; */
+"0eq-TH-Jlq.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Dix-Vs-xma"; */
+"Dix-Vs-xma.text" = "Label";
+
+/* Class = "IBUITextView"; text = "Лидер в сфере услуг
+lifestyle management и travel"; ObjectID = "Jpt-Sf-Gyn"; */
+"Jpt-Sf-Gyn.text" = "Leader in service
+lifestyle management and travel";
+
+/* Class = "IBUILabel"; text = "We sent you code with sms"; ObjectID = "P2S-Hk-Z8M"; */
+"P2S-Hk-Z8M.text" = "We sent you code with sms";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "TOz-2J-9VO"; */
+"TOz-2J-9VO.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "UVn-CS-3ka"; */
+"UVn-CS-3ka.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "VVI-Ol-84J"; */
+"VVI-Ol-84J.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "hto-Wg-2Z5"; */
+"hto-Wg-2Z5.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Создание пароля"; ObjectID = "pgv-yK-6Bn"; */
+"pgv-yK-6Bn.text" = "Create a password";
+
+/* Class = "IBUILabel"; text = "Подтвердите пароль"; ObjectID = "qgh-2I-XMn"; */
+"qgh-2I-XMn.text" = "Confirm password";
+
+/* Class = "IBUILabel"; text = "Create a password"; ObjectID = "kB6-3S-PcM"; */
+"kB6-3S-PcM.text" = "Create a password";
+
+/* Class = "IBUILabel"; text = "Ваш телефон"; ObjectID = "rgx-OW-fbf"; */
+"rgx-OW-fbf.text" = "Your phone number";
+
+/* Class = "IBUITabBarItem"; title = "ТОП 10"; ObjectID = "sDR-eN-wT1"; */
+//"sDR-eN-wT1.title" = "City Guide";
+
+/* Class = "IBUITabBarItem"; title = "Профиль"; ObjectID = "ssZ-HU-lcQ"; */
+//"ssZ-HU-lcQ.title" = "Profile";
+
+/* Class = "IBUIButton"; normalTitle = "Продолжить"; ObjectID = "stc-2n-ePM"; */
+"stc-2n-ePM.normalTitle" = "Continue";
+
+/* Class = "IBUILabel"; text = "We sent you code with sms"; ObjectID = "suA-62-2sU"; */
+"suA-62-2sU.text" = "We sent you code with sms";
+
+/* Class = "IBUITabBarItem"; title = "Запросы"; ObjectID = "tCU-KE-XtY"; */
+"tCU-KE-XtY.title" = "Requests";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "v2Z-rd-7M2"; */
+"v2Z-rd-7M2.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "yRx-AV-LiM"; */
+"yRx-AV-LiM.text" = "Label";
+
+/* Class = "IBUITabBarItem"; title = "Календарь"; ObjectID = "ytF-Uz-Dux"; */
+"ytF-Uz-Dux.title" = "Calendar";
+
+/* Class = "IBUITextField"; placeholder = "Код"; ObjectID = "ajG-iZ-g2y"; */
+"ajG-iZ-g2y.placeholder" = "Code";
+
+"1rB-PA-Cve.text" = "Client profile";
+"26T-jO-mjT.text" = "Raiffeisen Premium Banking Concierge Service";
+"NtL-DY-iao.text" = "LAST NAME";
+"nox-Mk-sIg.text" = "FIRST NAME";
+"37W-HX-vgJ.text" = "MIDDLE NAME";
+"8e9-2b-wVk.text" = "DATE OF BIRTH";
+"Cyl-zK-FlR.text" = "PHONE";
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YfM-6C-maA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="k4c-P6-BIv">
+            <objects>
+                <viewController id="YfM-6C-maA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3FE-Dn-gBJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="9JR-Bp-s2B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CH9-1m-B05">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome_title_image" translatesAutoresizingMaskIntoConstraints="NO" id="n67-Rc-0mV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="n67-Rc-0mV" secondAttribute="trailing" id="DeK-16-p3m"/>
+                            <constraint firstAttribute="bottom" secondItem="n67-Rc-0mV" secondAttribute="bottom" id="Rcn-5a-Vn6"/>
+                            <constraint firstItem="n67-Rc-0mV" firstAttribute="top" secondItem="CH9-1m-B05" secondAttribute="top" id="dLy-Gk-qoS"/>
+                            <constraint firstItem="n67-Rc-0mV" firstAttribute="leading" secondItem="CH9-1m-B05" secondAttribute="leading" id="r5I-Lz-Q2L"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Op1-6J-fy3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="167"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="welcome_title_image" width="375" height="667"/>
+    </resources>
+</document>

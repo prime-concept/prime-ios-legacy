@@ -1,0 +1,534 @@
+//
+//  Localizable.strings
+//  PRIME
+//
+//  Created by Simon on 31/01/15.
+//  Copyright (c) 2015 XNTrends. All rights reserved.
+//
+
+"Camera" = "Камера";
+"Photo" = "Фото";
+"Photo/Video" = "Фото/Видео";
+"Location" = "Местоположение";
+
+"Close" = "Закрыть";
+"Repeat" = "Повторить";
+"Russia" = "Россия";
+
+"Next" = "Далее";
+"Done" = "Готово";
+"Cancel" = "Отменить";
+"Select" = "Выбрать";
+"Signout" = "Выход";
+"Add card ..." = "Добавить карту ...";
+"Add passport" = "Добавить паспорт";
+"Add document ..." = "Добавить документ ...";
+"Add document" = "Добавить документ";
+"Related Document" = "Привязанный документ";
+"Add visa" = "Добавить визу";
+"Add" = "Добавить";
+"Cards" = "Карты";
+"Passports" = "Паспорта";
+"Visas" = "Визы";
+"Information" = "Информация";
+"Synchronization" = "Синхронизация";
+"Documents" = "Документы";
+"Document" = "Документ";
+"Concierge" = "Консьерж";
+
+"Login" = "Войти";
+"Authentication is needed to access your account." = "Authentication is needed to access your account.";
+
+"All categories..." = "Все категории...";
+
+"Request Types" = "Категории";
+"Statuses" = "Статусы";
+"E-mail" = "Эл. почта";
+"Personal information" = "Личная информация";
+"Change password ..." = "Поменять пароль ...";
+"Save modification?" = "Сохранить изменения?";
+
+"Passwords don't match" = "Пароли не совпадают";
+"Unable to find the requested data." = "Не удалось найти запрашиваемые данные.";
+"The server is temporarily unavailable or no Internet connection. Please try again later." = "Сервер временно недоступен или отсутствует соединение с интернетом. Попробуйте повторить попытку позже.";
+"Temporary problem. Please try again later." = "Временные неполадки. Пожалуйста, повторите попытку чуть позже.";
+"Confirmation code is wrong. An SMS with the registration code has been sent to you." = "Код подтверждения неправильный. Вам было отправлено SMS с кодом регистрации.";
+
+"Invalid country code" = "Неверный код страны";
+"Your phone number" = "Ваш номер телефона";
+"The phone number or password you entered is incorrect." = "Указан неверный номер телефона или пароль.";
+
+"Password is incorrect" = "Пароль указан неверно";
+"Current password" = "Текущий пароль";
+"Please, enter current password." = "Пожалуйста, введите старый пароль.";
+"Enter password" = "Введите пароль";
+"Enter password to login" = "Введите пароль для входа";
+"«Forgot password»" = "«Забыл пароль»";
+"Repeat password" = "Повторите пароль";
+"Passwords don't match." = "Пароли не совпадают.";
+"To use the application %@ please enter your phone number" = "Для входа в приложение %@ необходимо указать Ваш номер телефона";
+"Write a password which you will use to enter application %@" = "Придумайте пароль, который Вы будете использовать, для входа в приложение %@";
+
+"Card with this number does not exist." = "Карта с таким номером не существует.";
+
+"Want to keep this card for future payment?" = "Хотите сохранить эту карту для будущих оплат?";
+
+"The Internet connection appears to be offline." = "Похоже отсутствует подключение к интернету.";
+
+"Failed to save contact changes" = "Не удалось сохранить изменения контактов";
+
+"Expiration date of the card is entered incorrectly." = "Срок действия карты введен неверно.";
+
+"Payment system only processes Visa and MasterCard." = "Платежная система поддерживает только Visa и MasterCard.";
+
+"The card will be encrypted in the KeyChain and is only available on this device." = "Карта будет зашифрована в KeyChain и доступна только на этом устройстве.";
+
+"Invalid email address." = "Неверный адрес электронной почты.";
+
+"Connected to Internet." = "Подключение к Интернету.";
+
+"UBER is unavailable at this moment." = "Ностоящее время UBER недоступен.";
+
+"Mobile" = "Мобильный";
+
+"Club rules" = "Правила клуба";
+
+"Delete account" = "Удалить аккаунт";
+
+"Are you sure you want to delete your account?" = "Вы уверены, что хотите удалить аккаунт?";
+
+"Your account has been successfully deleted" = "Ваш аккаунт был успешно удален";
+
+"Change password" = "Сменить пароль";
+
+"Synchronize calendar" = "Синхронизировать с календарем";
+
+"My profile" = "Мой профиль";
+
+"Finances" = "Финансы";
+
+"My preferences" = "Мои предпочтения";
+
+"Get a virtual card" = "Получить виртуальную карту";
+
+"Reference" = "Справка";
+
+"Manage subscriptions" = "Управление подписками";
+
+"Cards" = "Карты";
+
+"Passports" = "Паспорта";
+
+"Passport" = "Паспорт";
+"Other Document" = "Другие документы";
+"Foreign Passport" = "Загранпаспорт РФ";
+"National Passport" = "Национальный паспорт";
+"Birth Certificate" = "Свидетельство о рождении";
+"Driving Licence" = "Водительское удостоверение";
+"Insurance" = "Страховка";
+"Residence Permit" = "Вид на жительство";
+"Military Identity Card" = "Военный билет";
+"Temporary Identity Card" = "Временное удостоверение личности";
+"Diplomatic Passport" = "Дипломатический паспорт";
+"Marine Passport" = "Паспорт моряка";
+"Passport Of Any Country" = "Загранпаспорт любой страны";
+"Certificate For CIS Countries" = "Свидетельство на возвращение в страны СНГ";
+"Service Passport" = "Служебный паспорт";
+"Certificate For Exempting" = "Справка об освобождении";
+"Temporary Certificate Of Offender" = "Временное удостоверение осужденного";
+"Officer Identity Card" = "Удостоверение личности офицера";
+
+"Visas" = "Визы";
+
+"Visa" = "Виза";
+
+"Passports/Visas" = "Паспорта/Визы";
+
+"Contacts" = "Контакты";
+
+"Family/Partners" = "Семья/Партнеры";
+
+"Personal data" = "Личные данные";
+
+"correction" = "правка";
+
+"Information" = "Информация";
+
+"Request" = "Запрос";
+
+"Requests" = "Запросы";
+
+"Order" = "Ордер";
+
+"Pay" = "Оплатить";
+
+"Paid" = "Оплачено";
+
+"Request created" = "Запрос создан";
+
+"Option" = "Опция";
+
+"Payment" = "Оплата";
+
+"Activity" = "Активность";
+
+"In progress" = "В работе";
+
+"Completed" = "Завершённые";
+
+"Cancelled" = "Отменённые";
+
+"passport" = "паспорт";
+"single-entry" = "одноразовая";
+"multiple-entry" = "многоразовая";
+"single-entry Schengen" = "одноразовая Шенген";
+"multiple-entry Schengen" = "многоразовая Шенген";
+
+"No events" = "Нет событий";
+"No requests" = "Нет запросов";
+
+"Pull down to refresh" = "Потяните, чтобы обновить";
+"Release to refresh" = "Отпустите";
+"Loading" = "Обновление";
+
+"Autofill card data?" = "Заполнить данные карты?";
+
+"In progress" = "В работе";
+"Completed" = "Завершённые";
+"To pay" = "К оплате";
+
+"Booked" = "Бронь";
+"Requests" = "Запросы";
+
+"Last name" = "Фамилия";
+"First name" = "Имя";
+"Middle name" = "Отчество";
+"Email (optional)" = "E-mail (необязательно)";
+
+"Passport Number" = "Номер Паспорта";
+"Visa Number" = "Номер Визы";
+"Document Number" = "Номер документа";
+"Citizenship" = "Гражданство";
+"Date of Birth" = "Дата рождения";
+"Place of Birth" = "Место рождения";
+
+"add passport" = "добавить паспорт";
+"add visa" = "добавить визу";
+"Issue date" = "Дата выдачи";
+"Expiration date" = "Дата окончания";
+"Issuing authority" = "Орган выдавший";
+"Country" = "Страна";
+"Visa type" = "Тип визы";
+"Add photo" = "Добавить фото";
+"Delete photo" = "Удалить фото";
+
+"All spends" = "Все расходы";
+"Transaction history" = "История операций";
+"History" = "История";
+"Expenses" = "Затраты";
+"My profile" = "Мой профиль";
+"My documents" = "Мои документы";
+"My cards" = "Мои карты";
+"My cars" = "Мои автомобили";
+"Bonus card" = "Бонусная карта";
+"PAYMENT CARDS" = "ПЛАТЕЖНЫЕ КАРТЫ";
+"LOYALTY CARDS" = "КАРТЫ ЛОЯЛЬНОСТИ";
+"Type" = "Тип";
+"Card number" = "Номер карты";
+"Note" = "Заметка";
+"Password" = "Пароль";
+"Card types" = "Тип карты";
+"Document types" = "Тип документов";
+"Scan the card" = "Сканирование карты";
+"Delete" = "Удалить";
+"Domicile" = "Место жительства";
+"Vehicle Category" = "Категории ТС";
+"Insurance Company" = "Страховая компания";
+"Coverage" = "Зона действия";
+"Issued At" = "Место выдачи";
+"Authority ID" = "Код подразделения";
+
+"Current balances" = "Текущие остатки";
+"No balances information for current month" = "Нет информации об остатках в текущем месяце";
+"Data on transactions made in the last 10 days, can be adjusted" = "Данные об операциях, выполненных в последние 10 дней, могут быть  скорректированы";
+"Currency" = "Валюта";
+"MULTY CURRENCY" = "МУЛЬТИВАЛЮТНЫЙ";
+
+"Service provider" = "Поставщик услуг";
+"All" = "Все";
+"Partners" = "Партнеры";
+
+"Private closed club. The number of members is limited to 300 persons.\n\nJoining the Club PRIMECONCEPT is possible only on the recommendation of one of the members or at the invitation of shareholders and leadership Club." = "Частный закрытый Клуб. Количество членов Клуба ограничивается лишь 300 персонами.\nВступить в Клуб PRIMECONCEPT можно только по рекомендации одного из членов Клуба или по приглашению акционеров и руководства Клуба.";
+"Phone number" = "Номер телефона";
+"is not found in the list of members\n" = "не найден в списке членов клуба";
+"Your contact number is not listed in\n\"Imperia Private Banking\" Concierge Service.\nTo activate Mobile App please provide us your current telephone number.\n" = "Ваш телефон не найден в списке контактов консьерж-службы «Империя Private Banking».\nДля активации мобильного приложения свяжитесь с консьерж-службой и сообщите актуальный контактный номер.\n";
+"is not found in the list of PRIME Pond mobile concierge-service\n" = "не найден в списке консьерж-службы PRIME Pond mobile";
+"is not found in the list of Ginza concierge-service\n" = "не найден в списке консьерж-службы Ginza";
+"Is not found in the list of concierge-service users.\nThe application is available for owners of loyalty cards PRIME Formula Kino.\nYou can purchase a card at the cinema PRIME Formula Kino in the \"European\" shopping mall on the 3rd floor,\narea of the Kiev Railway Station, 2, Moscow,\nTechnical support phone \n+ 7 495 641 34 56." = "Не найден в списке пользователей консьерж-службы.\nПриложение доступно для владельцев карт лояльности PRIME Формула Кино.\nВы можете приобрести карту в кинотеатре PRIME Формула Кино в \"Европейский\" ТРЦ на 3 этаже,\nпл. Киевского Вокзала, 2, Москва,\nТелефон технической поддержки \n+ 7 495 641 34 56.";
+"Telephone number" = "Телефонный номер";
+
+"To activate the mobile application you should be registered in the Concierge Service. Please contact us for assistance \n+7 495 775 52 19.\n" = "Для активации приложения и регистрации в Консьерж-Службе, пожалуйста, позвоните нам по номеру \n+7 495 775 52 19.\n";
+"is not found in the list of Prime Concierge concierge-service\n" = "не найден в списке консьерж-службы Prime Concierge";
+"is not found in the list of concierge-service.\nTo activate the application and register, please contact the concierge-service \n+7 495 775 01 20" = "не найден в списке консьерж-службы.\nДля активации приложения и регистрации, пожалуйста, свяжитесь с консьерж-службой по телефону \n+7 495 775 01 20";
+"is not found in the list of concierge-service.\nTo activate the application and register, please contact the concierge-service \n+7 495 792 56 55" = "не найден в списке консьерж-службы.\nДля активации приложения и регистрации, пожалуйста, свяжитесь с консьерж-службой по телефону \n+7 495 792 56 55";
+
+"Call" = "Позвонить";
+"Call back" = "Обратный звонок";
+"Open site" = "Перейти на сайт";
+"Your request is accepted. We will contact you within 24 hours." = "Ваш запрос принят. Мы свяжемся с Вами в течение 24 часов.";
+
+"Very bad" = "Очень плохо";
+"Bad" = "Плохой";
+"Normal" = "Нормальный";
+"Good" = "Хорошо";
+"Very good" = "Отлично";
+"Rate the quality of your call" = "Оценить качество вашего звонка";
+
+"City Guide" = "Гид";
+"Guide" = "Гид";
+"Chat" = "Чат";
+"Profile" = "Профиль";
+"Me" = "Я";
+"My assistant" = "Мой ассистент";
+
+"Today" = "Сегодня";
+"Yesterday" = "Вчера";
+"Tomorrow" = "Завтра";
+
+"Message has not been sent" = "Сообщение не было отправлено";
+"Send again" = "Отправить снова";
+"Concierge" = "Консьерж";
+"Type message..." = "Введите текст...";
+"Voice message" = "Голосовое сообщение";
+"Slide to cancel" = "Отмена";
+
+"Edit" = "Редактировать";
+"Save" = "Сохранить";
+
+"add phone" = "добавить телефон";
+"add email" = "добавить почту";
+"add contact" = "добавить контакт";
+"add family" = "добавить семью";
+"add partner" = "добавить партнера";
+"add car" = "добавить автомобиль";
+
+"Delete phone" = "Удалить номер";
+"Delete e-mail" = "Удалить почту";
+"Delete contacts" = "Удалить контакты";
+"Delete car" = "Удалить автомобиль";
+
+"Registration Plate" = "Государственный знак регистрации";
+"Brand" = "Марка";
+"Model" = "Модель";
+"Release Year" = "Год выпуска";
+"Color" = "Цвет";
+
+"Phone" = "Телефон";
+"Mail" = "Почта";
+"Contact" = "Контакт";
+"Comments" = "Комментарии";
+
+"Hide" = "Свернуть";
+
+"Ride there with UBER" = "Доехать на UBER";
+"Waiting for UBER" = "Ожидание UBER";
+"mins" = "минут";
+"See more on UBER" = "Больше на UBER";
+"Choose car" = "Выбрать автомобиль";
+"mins" = "мин.";
+
+"Prime city" = "Prime города";
+"Card selection" = "Выбор карты";
+"Create a password" = "Создать пароль";
+"Confirm password" = "Подтвердить пароль";
+"Continue" = "Продолжить";
+"We've sent you an SMS with the code" = "Мы отправили Вам SMS с кодом";
+"Code" = "Код";
+"Calendar" = "Календарь";
+"Time" = "Срок";
+"Not now" = "Не сейчас";
+"Start" = "Начать";
+"Hotel" = "Отель";
+"Send" = "Отправить";
+"Sent" = "Отправлено";
+"Sending" = "Отправка";
+"Download photo failed" = "Ошибка при загрузке фото";
+"Download document failed" = "Ошибка при загрузке документа";
+"Unsupported file" = "Неподдерживаемый файл";
+"Download video failed" = "Ошибка при загрузке видео";
+"Failed to update location" = "Не удалось обновить местоположение";
+"Sending fail" = "Ошибка при отправке";
+"Sharing contact" = "Отправка контакта";
+"company" = "компания";
+"Submit" = "Подтвердить";
+"End" = "Завершить";
+"Other" = "Другое";
+"Restaurant" = "Ресторан";
+"Whole day" = "Весь день";
+"Transfer" = "Трансфер";
+"VIP hall" = "VIP-зал";
+"Name" = "Имя";
+"Surname" = "Фамилия";
+"Avia" = "Авиа";
+
+"Take photo" = "Сделать фотографию";
+"Choose from library" = "Выбрать из библиотеки";
+"Back" = "Назад";
+
+// Overview screen texts localization.
+
+"PRIME - a world leader of premium concierge services and lifestyle management" = "PRIME – мировой лидер премиальных консьерж-услуг и lifestyle management";
+"\U2022 Concierge service 24/7/365\n\U2022 Special conditions for accommodation in the best hotels of the world and business class flights\n\U2022 Development and organization of individual travel\n\U2022 Air tickets (booking, purchase, exchange)\n\U2022 Order of the VIP rooms and Fast track services in the airports of the world\n\U2022 Medical concierge\n\U2022 Club payment card PRIME World Elite MasterCard with access to all the PRIME privileges and benefits\n\U2022 Benefits in the best restaurants, boutiques, health and fitness centers, spas, beauty salons etc.\n\U2022 Booking in the most popular restaurants in the world\n\U2022 Organization of tickets and invitations to cultural, sporting and social events" = "\U2022 Консьерж-сервис 24/7/365\n\U2022 Особые условия на размещение в лучших отелях мира и перелеты бизнес-классом\n\U2022 Разработка и организация индивидуальных путешествий\n\U2022 Оформление авиабилетов (бронирование, покупка, обмен)\n\U2022 Заказ VIP залов и  услуги Fast track в аэропортах мира\n\U2022 Медицинский консьерж\n\U2022 Клубная платежная карта PRIME World Elite MasterCard с доступом ко всем привилегиям и преимуществам PRIME\n\U2022 Привилегии в лучших ресторанах, бутиках, медицинских и фитнес-центрах, СПА, салонах красоты и других\n\U2022 Бронирования в самых востребованных ресторанах мира\n\U2022 Организация билетов и пригласительных на культурные, спортивные и светские мероприятия";
+
+"Ksenia" = "Ксения";
+"Sobchak" = "Собчак";
+"I believe that we can and should often tell about services that we are 100% satisfied with.\n\nFor 9 years, PRIME concierge service has surprised me with impeccable service and serious attitude to the Club members.\n\nI unconditionally entrust traveling organization only to PRIME.\n\nI have actively used PRIME Art Of Life mobile application since its launch. I am a demanding client, but I haven't found shortcomings.\nMy personal assistant is always in touch, all documents and cards are stored in one place, and there are also many other user-friendly features." = "Я считаю, что о сервисах, которыми доволен на 100%, можно и нужно говорить часто\n\nУже 9 лет консьерж-служба PRIME удивляет меня безупречным сервисом и серьезным отношением к членам Клуба.\n\nТолько PRIME я безоговорочно доверяю организацию путешествий\n\nАктивно пользуюсь мобильным приложением PRIME Art Of Life с момента его появления. Клиент я требовательный, но недостатков не обнаружила.\nПерсональный ассистент всегда на связи, в одном месте хранятся все документы  и карты, да и много других удобных функций.";
+
+"PRIME Travel benefits" = "Привилегии PRIME Travel";
+"More than 600 partners" = "Более 600 партнеров";
+"Air travel" = "Авиа";
+"\U2022 Up to 13% discount for \"Aeroflot\" business class flights\n\U2022 Confidential tariffs for British Airways and Emirates flights\n\U2022 15% discount for S7 business class flights" = "\U2022 Скидка до 13% на перелеты бизнес-класса «Аэрофлот»\n\U2022 Конфиденциальные тарифы на перелеты British Airways и Emirates\n\U2022 Скидка 15% на перелеты бизнес-класса S7";
+
+"PRIME Hotel Collection" = "PRIME Hotel Collection";
+"\U2022 Increasing of room category\n\U2022 Early check-in and late check-out\n\U2022 Free breakfast\n\U2022 Compliments: lunch or dinner at the hotel restaurant\n\U2022 Spa-procedures for the amount of $ 100 (In some networks)\n\U2022 A traditional gift from the hotel" = "\U2022 Повышение категории номера\n\U2022 Ранний заезд и поздний выезд\n\U2022 Бесплатный завтрак\n\U2022 Комплименты: обед или ужин в ресторане отеля\n\U2022 Spa-процедуры на сумму 100 у.е. (в отдельных сетях)\n\U2022 Традиционный подарок от отеля";
+
+"PRIME Lifestyle Benefits" = "Привилегии PRIME Lifestyle";
+"More than 700 partners" = "Более 700 партнеров";
+"The best restaurants, boutiques, medical and fitness centers, spas, beauty salons, etc." = "Лучшие рестораны, бутики, медицинские и фитнес-центры, СПА, салоны красоты и другие.";
+"Restaurants" = "Рестораны";
+"Strategic partners" = "Стратегические партнеры";
+"Novikov Group" = "Novikov Group";
+"\U2022 10% discount\n\U2022 20% discount for alcohol (PC)\n\U2022 Priority table reservations" = "\U2022 Премия 10%\n\U2022 Премия 20% на алкоголь (PC)\n\U2022 Приоритетное бронирование столов";
+"Restaurants of Aleksandr Rappoport" = "Рестораны Александра Раппопорта";
+"\U2022 10% discount\n\U2022 Priority table reservations" = "\U2022 Премия 10%\n\U2022 Приоритетное бронирование столов";
+"Maison Dellos" = "Maison Dellos";
+"\U2022 Up to 10% discount\n\U2022 Priority table reservations" = "\U2022 Премия до 10%\n\U2022 Приоритетное бронирование столов";
+"Maison Dellos" = "Maison Dellos";
+"\U2022 Up to 10% discount\n\U2022 Priority table reservations" = "\U2022 Премия до 10%\n\U2022 Приоритетное бронирование столов";
+"Purchases" = "Покупки";
+"Mercury" = "Mercury";
+"\U2022 Up to 20% discount" = "\U2022 Премия до 20%";
+"TsUM" = "ЦУМ";
+"\U2022 Cumulative discount of 20%" = "\U2022 Накопительная премия 20%";
+"Crocus Group" = "Crocus Group";
+"\U2022 Up to 20% discount" = "\U2022 Премия до 20%";
+"Podium" = "Podium";
+"\U2022 20% discount" = "\U2022 Премия 20%";
+"Beauty & Fitness" = "Красота и спорт";
+"World Class" = "World Class";
+"\U2022 Up to 20% discount" = "\U2022 Премия до 20%";
+"Aldo Coppola" = "Aldo Coppola";
+"\U2022 20% discount" = "\U2022 Премия 20%";
+
+"Polina" = "Полина";
+"Kitsenko" = "Киценко";
+"I use PRIME concierge services quite often. Especially when it comes to traveling.\n\nPRIME has its secrets, they know how to find a flight to the desired location quickly. Thanks to PRIME, I repeatedly managed to get more comfortable rooms with the right view, discounts and other privileges. When I find time for a vacation, it is important for me to get that very category and layout, which I wanted or saw on the hotel website. My life principle is \"the devil is in the details\".\n\nFortunately, I have no problem with visiting the most difficult-to-access restaurants in the capital city. But I think that for those who have difficulties, chances of getting into a popular place increase significantly thanks to PRIME. In Moscow, by the way, there are not so many such places. But in Europe, it is really good to have such a \"spy\" that will always help to quickly and effectively solve one or another issue.\n\nBefore the trip, I don\U2019t forget to look in the City Guide by PRIME.\nHere you can find advice from opinion-makers, opinion leaders and influential people on the best restaurants, attractions, hotels, etc. I myself have repeatedly shared recommendations of the various cities with PRIME.\nThere are always people whose taste you trust, and I\U2019m glad that PRIME carries out this kind of polls. When you ask a question:\n\"Where to dine in Rome\" or \"What to see in Vienna\", people advice, whose opinion you can rely on, is very helpful." = "Я пользуюсь услугами консьерж-сервиса PRIME довольно часто. Особенно, если дело касается путешествий.\n\nУ PRIME есть свои секреты, как быстро найти места на нужный рейс.\nБлагодаря PRIME мне не раз удавалось без проблем получать апгрейды номеров на более комфортные и с правильным видом, скидки и другие привилегии. Когда я нахожу время на отдых, для меня важно получить именно ту категорию и планировку, которую хотела или видела на сайте отеля. Мой принцип по жизни –  «дьявол в деталях».\n\nК счастью, у меня нет проблем с посещением самых труднодоступных ресторанов в столичных локациях. Но, думаю, что для тех, у кого возникают сложности, через PRIME шансы попасть в популярное место намного повышаются. В Москве, кстати, таких мест не так много. Но в Европе действительно хорошо иметь такого засланного казачка, который всегда поможет в том или ином вопросе быстро и результативно.\n\nПеред поездкой не забываю заглянуть в City Guide от PRIME.\nЗдесь собраны советы от опинион-мейкеров, лидеров мнений, влиятельных людей по лучшим ресторанам, достопримечательностям, отелям и т.д. Я и сама не раз делилась с PRIME рекомендациями по различным городам. Всегда есть люди, вкусу которых ты доверяешь, и я приветствую, что PRIME проводит такого рода опросы. Когда ты задаешься вопросом: «где пообедать в Риме» или «что посмотреть в Вене», советы людей, на чье мнение ты можешь ориентироваться, очень полезны.";
+
+"Arkady" = "Аркадий";
+"Novikov" = "Новиков";
+"I don’t really like to praise anybody; nevertheless, PRIME is one of the best companies I’ve had a chance to work with.\n\nThe thing is that, over the entire time of my dealings with PRIME, there were no failures, I’ve never encountered a situation where I would assign them any task, and they would give me no optimal solution. When I need a hotel suite to be booked, they always hit the target, and my expectations are always met. The same story with purchase of flight tickets I need. There were situations where I didn’t manage to have a table reserved directly in a restaurant, and PRIME helped me. We also frequently apply to PRIME for personal and family matters.\n\nI often notice that one or another tool or service is recommended and praised with too much credit. Some flaws in customer service are ignored.\n\nThere is no too much credit for PRIME, there is only accurate and good job.\n\nAt present, customers are free to choose their partners among a vast number of offers. And in this variety, I trust in PRIME." = "Я не очень люблю напрямую хвалить кого-то, но, тем не менее, PRIME - это одна из лучших компаний, с которыми мне приходилось иметь дело.\n\nДело в том, что за все время моего сотрудничество с PRIME не было ни одной накладки, никогда не случалось так, что я обратился с какой-то задачей, и мне не предложили оптимального решения.\nВ отношении PRIME нет никаких авансов, есть только правильная и хорошая работа.\n\nСейчас у клиентов есть выбор, с кем работать, предложений много.\nИ в этом многообразии я доверяю PRIME.";
+
+"Multiple payment and loyalty cards, passport and visa" = "Ваши платёжные карты и карты лояльности, паспорт и визы";
+"in one place" = "в одном месте";
+
+"PRIME CityGuide" = "PRIME CityGuide";
+"The guide to the best places and events in the largest cities of the world" = "Гид по лучшим местам и событиям в крупнейших мегаполисах мира";
+"\U2022 All significant restaurant ratings\n\U2022 Recommendations of the PRIME club members\n\U2022 Main concert venues" = "\U2022 Все знаковые ресторанные рейтинги\n\U2022 Рекомендации членов клуба PRIME\n\U2022 Главные концертные площадки";
+"PRIME CityGuide" = "PRIME CityGuide";
+"Booking and purchase of tickets to the best events" = "Бронирование и покупка билетов на лучшие мероприятия";
+"\U2022 Tickets to the main concert venues: Barvikha Concert Hall, House of Music, Moscow Conservatory named after P.I. Tchaikovsky, etc.\n\U2022 Tickets for over 80 movie theaters across Russia\n\U2022 Tickets to the \"Garage\" Museum, Moscow Planetarium, Moscow Zoo, VDNKh" = "\U2022 Билеты в кино с премией 10%\n\U2022 Билеты в Дом музыки, Музей «Гараж», Московскую консерваторию им. П.И. Чайковского, Московский Планетарий, Московский зоопарк, ВДНХ";
+"PRIME Traveller Magazine" = "Журнал PRIME Traveller";
+"Read online" = "Читать онлайн";
+"Leading travel and lifestyle magazine in the premium segment in Russia" = "Ведущий журнал о путешествиях и lifestyle в премиальном сегменте в России";
+"PRIME Traveller publishes interviews with business, political, cultural and sporting elite, many of whom are members of the PrimeConcept club.\nPublished since 2007.\nCirculation: 45,000 copies" = "PRIME Traveller публикует интервью с представителями деловой, политической, культурной и спортивной элиты, многие из которых являются членами клуба PrimeConcept.\nИздаётся с 2007 года.\nТираж: 45 000 копий";
+
+"Become a member of the PRIME Club" = "Станьте членом Клуба PRIME";
+"Login with Facebook" = "Войти через Facebook";
+"Fill in the form and we will contact you" = "Заполните форму, и мы свяжемся с вами";
+"Name" = "Имя";
+"Phone" = "Телефон";
+"e-mail" = "e-mail";
+"Submit" = "Отправить";
+"By clicking \"Submit\", you agree with the processing of your personal data." = "Нажимая кнопку «Отправить», вы соглашаетесь на обработку ваших персональных данных.";
+
+"I am PRIME" = "Я PRIME";
+"Register" = "Вступить в PRIME";
+
+"No connection to the Internet" = "Отсутствует соединение с Интернетом";
+"You can send a message..." = "Вы можете отправить сообщение...";
+"by SMS" = "по СМС";
+"SMS service is not available for your device" = "СМС услуга не доступна для вашего устройства";
+"There is no phone number for sending SMS" = "Не существует никакой телефонный номер для отправки СМС";
+"Error" = "Ошибка";
+"OK" = "ОК";
+"due" = "до";
+"Failed to send SMS" = "Не удалось отправить SMS";
+
+"This application does not have access to your camera" = "Это приложение не имеет доступа к вашей камере";
+"This application does not have access to your contacts" = "Это приложение не имеет доступа к вашим контактам";
+"This application does not have access to your location" = "Это приложение не имеет доступа к вашей местоположение";
+"You can enable access in Privacy Settings" = "Вы можете разрешить доступ в настройках конфиденциальности";
+"This application does not have access to your photo library" = "Это приложение не имеет доступа к вашим фотографиям";
+
+"A new version of the application is available. Install?" = "Доступна новая версия приложения. Установить?";
+"Yes" = "Да";
+"No" = "Нет";
+
+"until: " = "до: ";
+
+// Payment
+"PRIME CLUB" = "Прайм Клуб";
+"Pay with card" = "Оплатить картой";
+"Request number:" = "Номер задачи:";
+"Total:" = "Сумма:";
+"Service:" = "Услуга:";
+"Status:" = "Состояние:";
+"ApplePay method is not available for this payment." = "Способ оплаты ApplePay не доступен для этого платежа.";
+"Created" = "Создан";
+"Registered" = "Зарегистрирован";
+
+"If present" = "Если имеется";
+"Comments" = "Комментарии";
+"add passport photo" = "добавить фото паспорта";
+"add visa photo" = "добавить фото визы";
+"add photo" = "добавить фото";
+"Delete passport" = "Удалить паспорт";
+"Delete visa" = "Удалить визу";
+"Delete document" = "Удалить документ";
+
+// Formula Kino
+"Formula Kino" = "Формула Кино";
+
+// Raiffeisen
+"To use the application please enter your card number of Raiffeisen Premium Banking" = "Для входа в приложение укажите Ваш номер карты Raiffeisen Premium Banking";
+"Is not found in the client list of concierge service Raiffeisen Premium Banking" = "Не найден в списке клиентов консьерж-службы Raiffeisen Premium Banking";
+"Consent to personal data processing" = "Согласие с условиями обработки персональных данных";
+"Become a client" = "Стать клиентом";
+
+// PrivateBankingPRIMEClub
+"To use the application please enter your card number of Private banking." = "Для входа в приложение укажите Ваш номер карты Private banking.";
+"is not recognized by the Concierge-service Private Banking PRIME Club\n" = "не найден в списке клиентов консьерж-службы Private Banking PRIME Club\n";
+"Form" = "Анкета";
+
+// RR Club Prime
+"To use the application please enter your card number of RR Club PRIME" = "Для входа в приложение укажите Ваш номер карты RR Club PRIME";
+"is not recognized by the Concierge-service PRIME RRClub\n" = "не найден в списке клиентов консьерж-службы RR Club PRIME\n";
+
+// Prime Club Concierge
+"To use the application please enter your card number of Прайм Клуб Консьерж by Prime" = "Для входа в приложение укажите Ваш уникальный номер карты Прайм Клуб Консьерж by Prime";
+"is not recognized by the Concierge-service Прайм Клуб Консьерж Консьерж by Prime\n" = "не найден в списке клиентов консьерж-службы Прайм Клуб Консьерж by Prime\n";
+
+// Otkritie
+"To use the application please enter your card number of Открытие LifeStyle management" = "Для входа в приложение укажите ваш номер карты Открытие LifeStyle management";
+"I accept the contract and the rules of service" = "Принимаю договор и правила обслуживания";
+"Is not found in the client list of program LifeStyle management Открытие PB" = "Не найден в списке клиентов программы LifeStyle management Открытие PB";
+"Registration" = "Регистрация";
+
+"History" = "История";
+"Services" = "Сервисы";
+
+"No Requests " = "Запросов пока нет";
+"Enter your request" = "Введите Ваш запрос";
+
+// Skolkovo
+"Please contact our concierge service by phone number +74956413456 to activate the mobile application" = "Для активации мобильного приложения, пожалуйста, свяжитесь с консьерж-службой по телефону\n+74956413456";

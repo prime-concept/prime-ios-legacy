@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PRActionModel" representedClassName="PRActionModel" syncable="YES">
+        <attribute name="actionDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="actionId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="actionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PRUserModel" syncable="YES"/>
+    </entity>
+    <entity name="PRBalanceModel" representedClassName="PRBalanceModel" syncable="YES">
+        <attribute name="closingBalance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openingBalance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="PRTransactionModel" inverseName="balance" inverseEntity="PRTransactionModel" syncable="YES"/>
+    </entity>
+    <entity name="PRCardTypeModel" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="PRDocumentImageModel" representedClassName="PRDocumentImageModel" syncable="YES">
+        <attribute name="documentId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PRDocumentModel" representedClassName="PRDocumentModel" syncable="YES">
+        <attribute name="authority" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthPlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="citizenship" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="documentNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="expiryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="issueDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="middleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visaTypeId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="visaTypeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PREventModel" representedClassName="PREventModel" syncable="YES">
+        <attribute name="customerDisplayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customerId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="end" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="eventDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="eventType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localizeEnd" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="localizeStart" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="taskId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PRLoyalCardModel" syncable="YES">
+        <attribute name="cardDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cardId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cardNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expiryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="issueDate" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PRCardTypeModel" syncable="YES"/>
+    </entity>
+    <entity name="PROrderModel" representedClassName="PROrderModel" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderStatus" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="paymentLink" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PRTaskDetailModel" representedClassName="PRTaskDetailModel" syncable="YES">
+        <attribute name="completed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="customerId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="day" optional="YES" transient="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="requestDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="reserved" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="responsibleId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="taskDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="taskName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="actions" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="PRActionModel" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="PRTaskItemModel" syncable="YES"/>
+        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="PROrderModel" syncable="YES"/>
+        <relationship name="status" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PRTaskStatusModel" syncable="YES"/>
+        <relationship name="taskType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PRTaskTypeModel" syncable="YES"/>
+    </entity>
+    <entity name="PRTaskItemModel" representedClassName="PRTaskItemModel" syncable="YES">
+        <attribute name="itemIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PRTaskStatusModel" representedClassName="PRTaskStatusModel" syncable="YES">
+        <attribute name="statusId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="statusName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PRTasksTypesModel" representedClassName="PRTasksTypesModel" syncable="YES">
+        <attribute name="typeId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PRTaskTypeModel" representedClassName="PRTaskTypeModel" syncable="YES">
+        <attribute name="typeId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PRTransactionModel" representedClassName="PRTransactionModel" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="balanceAfter" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="balanceBefore" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="day" optional="YES" transient="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="directPayment" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="period" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="toReport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transactionId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="balance" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PRBalanceModel" inverseName="transactions" inverseEntity="PRBalanceModel" syncable="YES"/>
+    </entity>
+    <entity name="PRUploadFileInfoModel" representedClassName="PRUploadFileInfoModel" syncable="YES">
+        <attribute name="contentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="documentId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="fileDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="PRUserModel" representedClassName="PRUserModel" syncable="YES">
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PRUserProfileModel" representedClassName="PRUserProfileModel" syncable="YES">
+        <attribute name="calendarLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clubCard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customerTypeId" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="expiryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="middleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PRActionModel" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="PRBalanceModel" positionX="81" positionY="117" width="128" height="135"/>
+        <element name="PRCardTypeModel" positionX="99" positionY="135" width="128" height="75"/>
+        <element name="PRDocumentImageModel" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="PRDocumentModel" positionX="0" positionY="0" width="128" height="285"/>
+        <element name="PREventModel" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="PRLoyalCardModel" positionX="90" positionY="126" width="128" height="135"/>
+        <element name="PROrderModel" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="PRTaskDetailModel" positionX="0" positionY="0" width="128" height="255"/>
+        <element name="PRTaskItemModel" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="PRTaskStatusModel" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="PRTasksTypesModel" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="PRTaskTypeModel" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="PRTransactionModel" positionX="90" positionY="126" width="128" height="225"/>
+        <element name="PRUploadFileInfoModel" positionX="0" positionY="0" width="128" height="180"/>
+        <element name="PRUserModel" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="PRUserProfileModel" positionX="0" positionY="0" width="128" height="255"/>
+    </elements>
+</model>

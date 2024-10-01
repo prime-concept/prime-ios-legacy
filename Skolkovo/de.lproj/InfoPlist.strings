@@ -1,0 +1,9 @@
+/*
+  InfoPlist.strings
+  PRIME
+
+  Created by Aram on 9/1/17.
+  Copyright © 2017 XNTrends. All rights reserved.
+*/
+
+"NSLocationWhenInUseUsageDescription" = "Geben Sie die Erlaubnis Ihre Positon zu verwenden";

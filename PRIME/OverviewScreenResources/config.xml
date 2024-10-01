@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    
+    <pages count="10">
+
+        <page number="1" name="initialOverview"/>
+        <page number="2" name="novikovProfileOverview"/>
+        <page number="3" name="primeTravelOverview"/>
+        <page number="4" name="primeLifestyleOverview"/>
+        <page number="5" name="sobchakProfileOverview"/>
+        <page number="6" name="iPhoneCardsOverview"/>
+        <page number="7" name="kichenkoProfileOverview"/>
+        <page number="8" name="iPhoneRestaurantsOverview"/>
+        <page number="9" name="iPhoneFilmsOverview"/>
+        <page number="10" name="travellerOverview"/>
+<!--        <page number="11" name="clubPrimeOverview"/>-->
+
+    </pages>
+
+</config>

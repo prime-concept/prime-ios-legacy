@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page type="PRPrimeLifestyleOverviewViewController"
+    title="PRIME Lifestyle Benefits"
+    details="The best restaurants, boutiques, medical and fitness centers, spas, beauty salons, etc."
+    partnersCount="More than 700 partners"
+    restaurants="Restaurants"
+    partners="Strategic partners"
+    purchases="Purchases">
+    <items count="10">
+        <item image="novikov_logo" title="Novikov Group" content="&#8226; 10% discount&#10;&#8226; 20% discount for alcohol (PC)&#10;&#8226; Priority table reservations"/>
+        <item image="rapaport_logo" title="Restaurants of Aleksandr Rappoport" content="&#8226; 10% discount&#10;&#8226; Priority table reservations"/>
+        <item image="delos_logo" title="Maison Dellos" content="&#8226; Up to 10% discount&#10;&#8226; Priority table reservations"/>
+        <item image="semifredo_logo" title="Maison Dellos" content="&#8226; Up to 10% discount&#10;&#8226; Priority table reservations"/>
+        <item image="mercury_logo" title="Mercury" content="&#8226; Up to 20% discount"/>
+        <item image="TSUM_logo" title="TsUM" content="&#8226; Cumulative discount of 20%"/>
+        <item image="crocus_logo" title="Crocus Group" content="&#8226; Up to 20% discount"/>
+        <item image="podium_logo" title="Podium" content="&#8226; 20% discount"/>
+        <item image="word_class_logo" title="Beauty &amp; Fitness&#10;World Class" content="&#8226; Up to 20% discount"/>
+        <item image="aldo_logo" title="Aldo Coppola" content="&#8226; 20% discount"/>
+    </items>
+</page>

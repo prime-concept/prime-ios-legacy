@@ -1,0 +1,9 @@
+/* 
+  File.strings
+  PRIME
+
+  Created by Gayane on 11/7/16.
+  Copyright © 2016 XNTrends. All rights reserved.
+*/
+
+"NSLocationWhenInUseUsageDescription" = "Veuillez permettre d'accéder à votre position";
